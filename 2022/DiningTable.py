@@ -1,3 +1,4 @@
+# VARIABLES
 k = int(input("Enter number of test cases: "))
 
 for i in range(k):
