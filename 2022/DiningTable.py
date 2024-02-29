@@ -6,6 +6,8 @@ for i in range(k):
     S = int(input("Enter height she can climb: "))
     N = int(input("Enter number of side tables: "))
 
-    L1 = int(input("Enter length of first table: "))
-    L2 = int(input("Enter length of second table: "))
-    L3 = int(input("Enter length of third table: "))
+L = set()
+for i  in range(N):
+    lengthOfTable = int(input("Enter length of table: "))
+    L.add(lengthOfTable)
+
